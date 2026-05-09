@@ -11,7 +11,7 @@ import Footer from './components/Footer.jsx'
 
 export default function App() {
   return (
-    <LazyMotion features={domAnimation} strict>
+    <LazyMotion features={domAnimation}>
       <Nav />
       <main>
         <Hero />

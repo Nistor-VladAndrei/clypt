@@ -87,12 +87,6 @@ section {
 }
 section + section { border-top: 1px solid var(--line); }
 
-/* Defer rendering work for sections far below the fold.
-   `auto` lets the browser skip layout/paint until they near the viewport. */
-section:not(.hero) {
-  content-visibility: auto;
-  contain-intrinsic-size: 800px;
-}
 
 /* ---------- Typography ---------- */
 h1, h2, h3 {
